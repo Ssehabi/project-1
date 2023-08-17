@@ -1,0 +1,66 @@
+body {
+  background-color: aliceblue;
+}
+.container {
+  font-family: karla;
+  font-size: 16px;
+  /* padding-top: 100px; */
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 200px 200px;
+}
+
+div > .box1 {
+  background-color: white;
+  /* text-align: left; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 10%;
+}
+.box1 > h3 {
+  color: hsl(179, 62%, 43%);
+}
+.box1 > .day {
+  color: hsl(71, 73%, 54%);
+}
+div > .introduction {
+  color: hsl(218, 22%, 67%);
+}
+.box2 {
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+  text-align: justify;
+  padding-left: 80px;
+  padding-top: 20px;
+  box-shadow: 10px 10px;
+}
+.box2 > .subscrib {
+  padding: 20px 10px;
+}
+
+strong {
+  font-size: 30px;
+  padding-right: 10px;
+}
+span {
+  color: hsl(204, 43%, 93%);
+}
+.box2 > button {
+  padding: 10px 100px;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+}
+.box3 {
+  background-color: hsl(179, 62%, 48%);
+  padding-left: 100px;
+  /* line-height: 100px; */
+}
+.box3 > h4 {
+  color: white;
+}
+.box3 > .content {
+  color: hsl(204, 43%, 93%);
+}
